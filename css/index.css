@@ -81,7 +81,7 @@ p {
 .header-container{
     display: flex;
 	align-items: baseline;
-	justify-content: space-between;
+	justify-content: flex-start;
 
 	padding: 4% 0;
 
@@ -90,7 +90,7 @@ p {
 
 .nav-boi {
 	display: flex;
-	justify-content: space-evenly;
+	padding-left: 10%;
 }
 
 .header-container nav a {
@@ -335,7 +335,8 @@ footer nav a {
     .nav-boi {
 		display: flex;
 		justify-content: space-evenly;
-		flex-direction: column;
+        flex-direction: column;
+        padding-left: 20;
 	}
 	
 	.header-container nav a {
