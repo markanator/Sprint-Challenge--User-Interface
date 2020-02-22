@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+/* #region */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -66,15 +68,51 @@ p {
     line-height: 1.4;
 }
 
+
+/* #endregion */
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.header-container{
+    display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+
+	padding: 4% 0;
+
+	background-color: white;
+}
+
+.nav-boi {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.header-container nav a {
+	width: 100px;
+	text-decoration: none;
+	color: black;
+	
+}
+.top-banner{
+	padding: 2% 0;
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-cont{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -112,6 +150,47 @@ p {
     justify-content: center;
 }
 
+section.middle-content .boxes .b1{
+    background-color: teal;
+}
+
+section.middle-content .boxes .b2{
+    background-color: gold;
+}
+
+section.middle-content .boxes .b3{
+    background-color: cadetblue;
+}
+
+section.middle-content .boxes .b4{
+    background-color: coral;
+}
+
+section.middle-content .boxes .b5{
+    background-color: crimson;
+}
+
+section.middle-content .boxes .b6{
+    background-color: forestgreen;
+}
+
+section.middle-content .boxes .b7{
+    background-color: darkorchid;
+}
+
+section.middle-content .boxes .b8{
+    background-color: hotpink;
+}
+
+section.middle-content .boxes .b9{
+    background-color: indigo;
+}
+
+section.middle-content .boxes .b10{
+    background-color: dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +204,48 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.mid-cont{
+    display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 3% 3%;
+}
+
+.mBox{
+    margin: 3% 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: start;
+	width: 48%;
+
+    padding: 2% 0;
+    border-bottom: 1px dashed black;
+
+}
+
+.mBox h2{
+    padding-top: 3%;
+}
+
+.mBox a{
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    margin-top: 5%;
+	padding: 10px 30px;
+	font-size: small;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.bot-info{
+    padding: 0 3%;
+    padding-bottom: 5%;
+}
+
 
 footer {
     width: 100%;
